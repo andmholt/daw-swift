@@ -50,7 +50,6 @@ import AVFoundation
     }
     
     func attachBuf(clipBuffer: AVAudioPCMBuffer, location: Int, size: UInt32) {
-        print("LOC: \(location)")
         clipBuf = clipBuffer
         clipSize = size
         if (Int(size)+location > AUDIO_FRAME_COUNT) {

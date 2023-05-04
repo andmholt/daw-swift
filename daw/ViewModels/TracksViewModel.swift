@@ -99,51 +99,51 @@ extension TracksView {
             
             self.tracks = [
                 
-                // vox
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ drop"]),
-                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ intro vox"], tabColor: .red, title: "Intro Vox"),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pre"]),
-                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ verse vox"], tabColor: .red, title: "Verse Vox"),
+                // vox - purple
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ intro vox"], tabColor: .purple, title: "Intro Vox"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ verse vox"], tabColor: .purple, title: "Verse Vox"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pre"], tabColor: .purple, title: "Pre Vox"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ drop"], tabColor: .purple, title: "Drop Vox"),
                 
-                // guitar
-                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ finger gtr"], tabColor: .orange, title: "Finger Gtr"),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ chopped chug"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ chorus gtr"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ mute pluck"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pre strum"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ verse line"]),
+                // guitar - mint
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ finger gtr"], tabColor: .indigo, title: "Finger Gtr"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ chopped chug"], tabColor: .indigo, title: "Chopped Chug"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ chorus gtr"], tabColor: .indigo, title: "Chorus Gtr"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ mute pluck"], tabColor: .indigo, title: "Mute Pluck"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pre strum"], tabColor: .indigo, title: "Pre Strum"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ verse line"], tabColor: .indigo, title: "Verse Line"),
                 
-                // synths
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pad 1"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pad 2"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pluck keys"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pluck synth"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth keys"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth lead 1"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth lead 2"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth lead 3"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth pluck 2"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ whistle"]),
+                // synths - pink
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pad 1"], tabColor: .pink, title: "Pad 1"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pad 2"], tabColor: .pink, title: "Pad 2"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pluck keys"], tabColor: .pink, title: "Pluck Keys"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ pluck synth"], tabColor: .pink, title: "Pluck Synth"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth keys"], tabColor: .pink, title: "Synth Keys"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth lead 1"], tabColor: .pink, title: "Synth Lead 1"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth lead 2"], tabColor: .pink, title: "Synth Lead 2"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth lead 3"], tabColor: .pink, title: "Synth Lead 3"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth pluck 2"], tabColor: .pink, title: "Synth Pluck 2"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ whistle"], tabColor: .pink, title: "Whistle"),
                 
-                // bass
-                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ bass gtr"], tabColor: .purple, title: "Bass Gtr"),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ chopped bass"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth bass"]),
+                // bass - orange
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ bass gtr"], tabColor: .orange, title: "Bass Gtr"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ chopped bass"], tabColor: .orange, title: "Chopped Bass"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ synth bass"], tabColor: .orange, title: "Synth Bass"),
                 
-                // drums
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ hats"]),
+                // drums - blue
                 AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ kick"], tabColor: .blue, title: "Kick"),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ percs 1"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ percs 2"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ percs 3"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ snare"]),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ snare"], tabColor: .blue, title: "Snare"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ hats"], tabColor: .blue, title: "Hats"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ percs 1"], tabColor: .blue, title: "Percs 1"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ percs 2"], tabColor: .blue, title: "Percs 2"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ percs 3"], tabColor: .blue, title: "Percs 3"),
                 
-                // fx
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ A-vox verb"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ B-instr verb"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ heart monitor"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ noise"]),
-//                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ phone"]),
+                // fx - red
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ A-vox verb"], tabColor: .red, title: "Vox Verb"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ B-instr verb"], tabColor: .red, title: "Instr Verb"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ heart monitor"], tabColor: .red, title: "Heart Monitor"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ noise"], tabColor: .red, title: "Noise"),
+                AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: ["_ phone"], tabColor: .red, title: "Phone"),
 
             ]
         }
