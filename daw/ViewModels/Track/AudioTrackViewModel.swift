@@ -27,6 +27,7 @@ import AVFoundation
          getMergeBufId: @escaping () -> Int,
          mergeBuf: @escaping (AVAudioPCMBuffer, Int) -> Void,
          audioFiles: [String],
+         clipLocations: [Int],
          tabColor: Color,
          title: String) {
         
@@ -44,9 +45,14 @@ import AVFoundation
         mergeBufId = getMergeBufId()
         
         super.init(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf)
-        self.clips = [
-            AudioClipViewModel(setHoveringClip: self.setHoveringClip, attachBuf: self.attachBuf, audioFile: audioFiles[0], color: self.tabColor, title: self.title)
-        ]
+        
+        for (i, _) in audioFiles.enumerated() {
+            self.clips.append(AudioClipViewModel(setHoveringClip: self.setHoveringClip, attachBuf: self.attachBuf, audioFile: audioFiles[i], location: clipLocations[i], color: self.tabColor, title: self.title))
+        }
+        
+//        self.clips = [
+//            AudioClipViewModel(setHoveringClip: self.setHoveringClip, attachBuf: self.attachBuf, audioFile: audioFiles[0], location: clipLocations[0], color: self.tabColor, title: self.title)
+//        ]
     }
     
     func attachBuf(clipBuffer: AVAudioPCMBuffer, location: Int, size: UInt32) {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		913AD20E2A04473C000725BE /* Presets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913AD20D2A04473C000725BE /* Presets.swift */; };
 		9146D4AC2A02256000C85937 /* metr.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9146D4AB2A02256000C85937 /* metr.wav */; };
 		9146D4D12A02C1A100C85937 /* _ kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9146D4AF2A02C19F00C85937 /* _ kick.wav */; };
 		9146D4D22A02C1A100C85937 /* _ percs 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9146D4B02A02C19F00C85937 /* _ percs 2.wav */; };
@@ -97,6 +98,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		913AD20D2A04473C000725BE /* Presets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presets.swift; sourceTree = "<group>"; };
 		9146D4AB2A02256000C85937 /* metr.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = metr.wav; sourceTree = "<group>"; };
 		9146D4AF2A02C19F00C85937 /* _ kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "_ kick.wav"; sourceTree = "<group>"; };
 		9146D4B02A02C19F00C85937 /* _ percs 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "_ percs 2.wav"; sourceTree = "<group>"; };
@@ -220,6 +222,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		913AD20C2A044723000725BE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				913AD20D2A04473C000725BE /* Presets.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		9146D4682A01B26F00C85937 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +312,7 @@
 		9181C0A4295E15CA006FD9BD /* daw */ = {
 			isa = PBXGroup;
 			children = (
+				913AD20C2A044723000725BE /* Utils */,
 				9146D4AB2A02256000C85937 /* metr.wav */,
 				9146D4682A01B26F00C85937 /* Audio */,
 				9181C0A5295E15CA006FD9BD /* dawApp.swift */,
@@ -619,6 +630,7 @@
 				91FCEF00297B75270005EEED /* ContentViewModel.swift in Sources */,
 				91C64335296D1638006AF256 /* RightWindowViewModel.swift in Sources */,
 				91ABD2B0296B711100EB7A50 /* AudioClipViewModel.swift in Sources */,
+				913AD20E2A04473C000725BE /* Presets.swift in Sources */,
 				91C64333296D1607006AF256 /* RightWindowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

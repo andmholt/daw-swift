@@ -23,6 +23,7 @@ import AVFoundation
     init(setHoveringClip: @escaping (ClipViewModel, Bool) -> Void,
          attachBuf: @escaping (AVAudioPCMBuffer, Int, UInt32) -> Void,
          audioFile: String,
+         location: Int,
          color: Color,
          title: String) {
         
@@ -57,7 +58,7 @@ import AVFoundation
             }
             
             // attach to track buffer
-            attachBuf(audioBuffer!, 0, audioFrameCount)
+            attachBuf(audioBuffer!, location, audioFrameCount)
         } catch let error {
             print("Error loading audio: \(error.localizedDescription)")
         }
