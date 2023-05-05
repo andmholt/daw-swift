@@ -18,7 +18,7 @@ import AVFoundation
     @Published var tabColor: Color
     @Published var title: String
     
-    let AUDIO_FRAME_COUNT = 4000000
+    let AUDIO_FRAME_COUNT = 6000000
     
     init(setHoveringTrack: @escaping (TrackViewModel, Bool) -> Void,
          setHoveringClip: @escaping (ClipViewModel, Bool) -> Void,
@@ -46,7 +46,6 @@ import AVFoundation
         super.init(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf)
         
         for (i, _) in audioFiles.enumerated() {
-            print("CREATING CLIP \(i)")
             self.clips.append(AudioClipViewModel(setHoveringClip: self.setHoveringClip, attachBuf: self.attachBuf, audioFile: audioFiles[i], location: clipLocations[i], color: self.tabColor, title: self.title))
         }
         

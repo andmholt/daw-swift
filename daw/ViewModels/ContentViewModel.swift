@@ -24,7 +24,7 @@ class ContentViewModel: ObservableObject {
     var audioBuffer: AVAudioPCMBuffer
     var audioBuffer2: AVAudioPCMBuffer
     
-    let AUDIO_FRAME_COUNT = 4000000
+    let AUDIO_FRAME_COUNT = 6000000
     let AUDIO_NODE_COUNT = 10
     
     var currMergeBufId = 0
@@ -96,7 +96,7 @@ class ContentViewModel: ObservableObject {
             self.playheadPos = playPos*11
             self.timer = Timer.scheduledTimer(withTimeInterval: Double(60)/Double(605), repeats: true) { timer in
                 beginningOffset += 1
-                if beginningOffset < 6 {
+                if beginningOffset < 1 {
                     return
                 }
                 // This code will be executed every 0.25 seconds
@@ -167,7 +167,6 @@ class ContentViewModel: ObservableObject {
         
         // if tnot enough nodes, create a new one
         if bufId >= self.audioPlayerNodes.count {
-            print("Loading track \(bufId)")
             let newNode = AVAudioPlayerNode()
             self.audioPlayerNodes.append(newNode)
             self.audioEngine.attach(newNode)

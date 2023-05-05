@@ -34,7 +34,7 @@ struct TracksView: View {
                     ZStack() {
                         // numbers
                         HStack(spacing: 0) {
-                            ForEach (0...249, id: \.self) { i in
+                            ForEach (0...69, id: \.self) { i in
                                 Text(String(i))
                                     .foregroundColor(.gray)
                                     .frame(width: CGFloat(vm.gridScale*4), alignment: .leading)

@@ -40,8 +40,73 @@
 		91DCEF58296479AF00487D5B /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DCEF57296479AF00487D5B /* Track.swift */; };
 		91DCEF5A29647A3200487D5B /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DCEF5929647A3200487D5B /* AudioTrack.swift */; };
 		91EC3C8C2A04BC5700A72441 /* master.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3C8B2A04BC5700A72441 /* master.wav */; };
-		91EC3C932A04BD6100A72441 /* finger gtr 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3C912A04BD6100A72441 /* finger gtr 0.wav */; };
-		91EC3C942A04BD6100A72441 /* finger gtr 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3C922A04BD6100A72441 /* finger gtr 1.wav */; };
+		91EC3CC12A04CA8A00A72441 /* drop adlibs 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CB32A04CA8A00A72441 /* drop adlibs 0.wav */; };
+		91EC3CC22A04CA8A00A72441 /* pre vox 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CB42A04CA8A00A72441 /* pre vox 1.wav */; };
+		91EC3CC32A04CA8A00A72441 /* pre vox 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CB52A04CA8A00A72441 /* pre vox 3.wav */; };
+		91EC3CC42A04CA8A00A72441 /* drop vox 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CB62A04CA8A00A72441 /* drop vox 0.wav */; };
+		91EC3CC52A04CA8A00A72441 /* verse adlibs 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CB72A04CA8A00A72441 /* verse adlibs 1.wav */; };
+		91EC3CC62A04CA8A00A72441 /* verse adlibs 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CB82A04CA8A00A72441 /* verse adlibs 2.wav */; };
+		91EC3CC72A04CA8A00A72441 /* intro vox 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CB92A04CA8A00A72441 /* intro vox 0.wav */; };
+		91EC3CC82A04CA8A00A72441 /* pre vox 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CBA2A04CA8A00A72441 /* pre vox 2.wav */; };
+		91EC3CC92A04CA8A00A72441 /* verse bkgs 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CBB2A04CA8A00A72441 /* verse bkgs 1.wav */; };
+		91EC3CCA2A04CA8A00A72441 /* verse adlibs 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CBC2A04CA8A00A72441 /* verse adlibs 0.wav */; };
+		91EC3CCB2A04CA8A00A72441 /* pre vox 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CBD2A04CA8A00A72441 /* pre vox 0.wav */; };
+		91EC3CCD2A04CA8A00A72441 /* pre vox 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CBF2A04CA8A00A72441 /* pre vox 4.wav */; };
+		91EC3CCE2A04CA8A00A72441 /* verse bkgs 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CC02A04CA8A00A72441 /* verse bkgs 0.wav */; };
+		91EC3CD42A04CB3800A72441 /* verse ld 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CD32A04CB3800A72441 /* verse ld 0.wav */; };
+		91EC3CE52A04CE7800A72441 /* synth lead 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CD52A04CE7800A72441 /* synth lead 0.wav */; };
+		91EC3CE62A04CE7800A72441 /* whistle 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CD62A04CE7800A72441 /* whistle 0.wav */; };
+		91EC3CE72A04CE7800A72441 /* whistle 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CD72A04CE7800A72441 /* whistle 5.wav */; };
+		91EC3CE82A04CE7800A72441 /* whistle 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CD82A04CE7800A72441 /* whistle 4.wav */; };
+		91EC3CE92A04CE7800A72441 /* whistle 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CD92A04CE7800A72441 /* whistle 6.wav */; };
+		91EC3CEA2A04CE7800A72441 /* synth pluck 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CDA2A04CE7800A72441 /* synth pluck 2.wav */; };
+		91EC3CEB2A04CE7800A72441 /* whistle 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CDB2A04CE7800A72441 /* whistle 1.wav */; };
+		91EC3CEC2A04CE7800A72441 /* whistle 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CDC2A04CE7800A72441 /* whistle 3.wav */; };
+		91EC3CED2A04CE7800A72441 /* synth keys 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CDD2A04CE7800A72441 /* synth keys 0.wav */; };
+		91EC3CEE2A04CE7800A72441 /* synth pluck 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CDE2A04CE7800A72441 /* synth pluck 0.wav */; };
+		91EC3CEF2A04CE7800A72441 /* whistle 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CDF2A04CE7800A72441 /* whistle 9.wav */; };
+		91EC3CF02A04CE7800A72441 /* whistle 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CE02A04CE7800A72441 /* whistle 7.wav */; };
+		91EC3CF12A04CE7800A72441 /* pad 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CE12A04CE7800A72441 /* pad 0.wav */; };
+		91EC3CF22A04CE7800A72441 /* whistle 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CE22A04CE7800A72441 /* whistle 8.wav */; };
+		91EC3CF32A04CE7800A72441 /* synth pluck 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CE32A04CE7800A72441 /* synth pluck 1.wav */; };
+		91EC3CF42A04CE7800A72441 /* whistle 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CE42A04CE7800A72441 /* whistle 2.wav */; };
+		91EC3CF72A04D02700A72441 /* finger gtr 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CF52A04D02700A72441 /* finger gtr 1.wav */; };
+		91EC3CF82A04D02700A72441 /* finger gtr 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CF62A04D02700A72441 /* finger gtr 0.wav */; };
+		91EC3D0B2A04D33200A72441 /* mute pluck 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CF92A04D33100A72441 /* mute pluck 4.wav */; };
+		91EC3D0D2A04D33200A72441 /* mute pluck 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CFB2A04D33200A72441 /* mute pluck 7.wav */; };
+		91EC3D0E2A04D33200A72441 /* pre strum 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CFC2A04D33200A72441 /* pre strum 0.wav */; };
+		91EC3D0F2A04D33200A72441 /* mute pluck 13.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CFD2A04D33200A72441 /* mute pluck 13.wav */; };
+		91EC3D102A04D33200A72441 /* mute pluck 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CFE2A04D33200A72441 /* mute pluck 1.wav */; };
+		91EC3D112A04D33200A72441 /* mute pluck 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3CFF2A04D33200A72441 /* mute pluck 5.wav */; };
+		91EC3D122A04D33200A72441 /* mute pluck 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D002A04D33200A72441 /* mute pluck 10.wav */; };
+		91EC3D132A04D33200A72441 /* mute pluck 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D012A04D33200A72441 /* mute pluck 9.wav */; };
+		91EC3D142A04D33200A72441 /* mute pluck 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D022A04D33200A72441 /* mute pluck 3.wav */; };
+		91EC3D152A04D33200A72441 /* chopped chug 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D032A04D33200A72441 /* chopped chug 0.wav */; };
+		91EC3D162A04D33200A72441 /* chorus gtr 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D042A04D33200A72441 /* chorus gtr 0.wav */; };
+		91EC3D172A04D33200A72441 /* mute pluck 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D052A04D33200A72441 /* mute pluck 6.wav */; };
+		91EC3D182A04D33200A72441 /* mute pluck 12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D062A04D33200A72441 /* mute pluck 12.wav */; };
+		91EC3D192A04D33200A72441 /* mute pluck 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D072A04D33200A72441 /* mute pluck 8.wav */; };
+		91EC3D1A2A04D33200A72441 /* mute pluck 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D082A04D33200A72441 /* mute pluck 2.wav */; };
+		91EC3D1B2A04D33200A72441 /* verse line 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D092A04D33200A72441 /* verse line 0.wav */; };
+		91EC3D1C2A04D33200A72441 /* mute pluck 11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D0A2A04D33200A72441 /* mute pluck 11.wav */; };
+		91EC3D242A04D5D400A72441 /* chopped bass 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D1D2A04D5D400A72441 /* chopped bass 0.wav */; };
+		91EC3D252A04D5D400A72441 /* phone 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D1E2A04D5D400A72441 /* phone 0.wav */; };
+		91EC3D262A04D5D400A72441 /* synth bass 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D1F2A04D5D400A72441 /* synth bass 0.wav */; };
+		91EC3D272A04D5D400A72441 /* bass gtr 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D202A04D5D400A72441 /* bass gtr 0.wav */; };
+		91EC3D282A04D5D400A72441 /* instr verb 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D212A04D5D400A72441 /* instr verb 0.wav */; };
+		91EC3D292A04D5D400A72441 /* heart monitor 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D222A04D5D400A72441 /* heart monitor 0.wav */; };
+		91EC3D2A2A04D5D400A72441 /* noise 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D232A04D5D400A72441 /* noise 0.wav */; };
+		91EC3D2C2A04D66800A72441 /* vox verb 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D2B2A04D66800A72441 /* vox verb 0.wav */; };
+		91EC3D2E2A04D73D00A72441 /* mute pluck 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D2D2A04D73D00A72441 /* mute pluck 0.wav */; };
+		91EC3D382A04D8B100A72441 /* hats 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D2F2A04D8B100A72441 /* hats 0.wav */; };
+		91EC3D392A04D8B100A72441 /* hats 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D302A04D8B100A72441 /* hats 1.wav */; };
+		91EC3D3A2A04D8B100A72441 /* percs 1 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D312A04D8B100A72441 /* percs 1 0.wav */; };
+		91EC3D3B2A04D8B100A72441 /* kick 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D322A04D8B100A72441 /* kick 0.wav */; };
+		91EC3D3C2A04D8B100A72441 /* percs 2 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D332A04D8B100A72441 /* percs 2 0.wav */; };
+		91EC3D3D2A04D8B100A72441 /* percs 3 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D342A04D8B100A72441 /* percs 3 0.wav */; };
+		91EC3D3E2A04D8B100A72441 /* snare 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D352A04D8B100A72441 /* snare 0.wav */; };
+		91EC3D3F2A04D8B100A72441 /* snare 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D362A04D8B100A72441 /* snare 1.wav */; };
+		91EC3D402A04D8B100A72441 /* kick 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 91EC3D372A04D8B100A72441 /* kick 1.wav */; };
 		91FCEEF8297B53B70005EEED /* AudioEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91FCEEF6297B53B70005EEED /* AudioEngine.cpp */; };
 		91FCEEFA297B583D0005EEED /* PatchBayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCEEF9297B583D0005EEED /* PatchBayView.swift */; };
 		91FCEEFC297B58730005EEED /* PatchBayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCEEFB297B58730005EEED /* PatchBayViewModel.swift */; };
@@ -108,8 +173,73 @@
 		91DCEF57296479AF00487D5B /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		91DCEF5929647A3200487D5B /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		91EC3C8B2A04BC5700A72441 /* master.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = master.wav; sourceTree = "<group>"; };
-		91EC3C912A04BD6100A72441 /* finger gtr 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "finger gtr 0.wav"; path = "../../../../Desktop/daw audio/finger gtr 0.wav"; sourceTree = "<group>"; };
-		91EC3C922A04BD6100A72441 /* finger gtr 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "finger gtr 1.wav"; path = "../../../../Desktop/daw audio/finger gtr 1.wav"; sourceTree = "<group>"; };
+		91EC3CB32A04CA8A00A72441 /* drop adlibs 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drop adlibs 0.wav"; path = "../../../../Desktop/daw audio/drop adlibs 0.wav"; sourceTree = "<group>"; };
+		91EC3CB42A04CA8A00A72441 /* pre vox 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "pre vox 1.wav"; path = "../../../../Desktop/daw audio/pre vox 1.wav"; sourceTree = "<group>"; };
+		91EC3CB52A04CA8A00A72441 /* pre vox 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "pre vox 3.wav"; path = "../../../../Desktop/daw audio/pre vox 3.wav"; sourceTree = "<group>"; };
+		91EC3CB62A04CA8A00A72441 /* drop vox 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "drop vox 0.wav"; path = "../../../../Desktop/daw audio/drop vox 0.wav"; sourceTree = "<group>"; };
+		91EC3CB72A04CA8A00A72441 /* verse adlibs 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "verse adlibs 1.wav"; path = "../../../../Desktop/daw audio/verse adlibs 1.wav"; sourceTree = "<group>"; };
+		91EC3CB82A04CA8A00A72441 /* verse adlibs 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "verse adlibs 2.wav"; path = "../../../../Desktop/daw audio/verse adlibs 2.wav"; sourceTree = "<group>"; };
+		91EC3CB92A04CA8A00A72441 /* intro vox 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "intro vox 0.wav"; path = "../../../../Desktop/daw audio/intro vox 0.wav"; sourceTree = "<group>"; };
+		91EC3CBA2A04CA8A00A72441 /* pre vox 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "pre vox 2.wav"; path = "../../../../Desktop/daw audio/pre vox 2.wav"; sourceTree = "<group>"; };
+		91EC3CBB2A04CA8A00A72441 /* verse bkgs 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "verse bkgs 1.wav"; path = "../../../../Desktop/daw audio/verse bkgs 1.wav"; sourceTree = "<group>"; };
+		91EC3CBC2A04CA8A00A72441 /* verse adlibs 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "verse adlibs 0.wav"; path = "../../../../Desktop/daw audio/verse adlibs 0.wav"; sourceTree = "<group>"; };
+		91EC3CBD2A04CA8A00A72441 /* pre vox 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "pre vox 0.wav"; path = "../../../../Desktop/daw audio/pre vox 0.wav"; sourceTree = "<group>"; };
+		91EC3CBF2A04CA8A00A72441 /* pre vox 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "pre vox 4.wav"; path = "../../../../Desktop/daw audio/pre vox 4.wav"; sourceTree = "<group>"; };
+		91EC3CC02A04CA8A00A72441 /* verse bkgs 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "verse bkgs 0.wav"; path = "../../../../Desktop/daw audio/verse bkgs 0.wav"; sourceTree = "<group>"; };
+		91EC3CD32A04CB3800A72441 /* verse ld 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "verse ld 0.wav"; path = "../../../../Desktop/daw audio/verse ld 0.wav"; sourceTree = "<group>"; };
+		91EC3CD52A04CE7800A72441 /* synth lead 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "synth lead 0.wav"; sourceTree = "<group>"; };
+		91EC3CD62A04CE7800A72441 /* whistle 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "whistle 0.wav"; sourceTree = "<group>"; };
+		91EC3CD72A04CE7800A72441 /* whistle 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "whistle 5.wav"; sourceTree = "<group>"; };
+		91EC3CD82A04CE7800A72441 /* whistle 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "whistle 4.wav"; sourceTree = "<group>"; };
+		91EC3CD92A04CE7800A72441 /* whistle 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "whistle 6.wav"; sourceTree = "<group>"; };
+		91EC3CDA2A04CE7800A72441 /* synth pluck 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "synth pluck 2.wav"; sourceTree = "<group>"; };
+		91EC3CDB2A04CE7800A72441 /* whistle 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "whistle 1.wav"; sourceTree = "<group>"; };
+		91EC3CDC2A04CE7800A72441 /* whistle 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "whistle 3.wav"; sourceTree = "<group>"; };
+		91EC3CDD2A04CE7800A72441 /* synth keys 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "synth keys 0.wav"; sourceTree = "<group>"; };
+		91EC3CDE2A04CE7800A72441 /* synth pluck 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "synth pluck 0.wav"; sourceTree = "<group>"; };
+		91EC3CDF2A04CE7800A72441 /* whistle 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "whistle 9.wav"; sourceTree = "<group>"; };
+		91EC3CE02A04CE7800A72441 /* whistle 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "whistle 7.wav"; sourceTree = "<group>"; };
+		91EC3CE12A04CE7800A72441 /* pad 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pad 0.wav"; sourceTree = "<group>"; };
+		91EC3CE22A04CE7800A72441 /* whistle 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "whistle 8.wav"; sourceTree = "<group>"; };
+		91EC3CE32A04CE7800A72441 /* synth pluck 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "synth pluck 1.wav"; sourceTree = "<group>"; };
+		91EC3CE42A04CE7800A72441 /* whistle 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "whistle 2.wav"; sourceTree = "<group>"; };
+		91EC3CF52A04D02700A72441 /* finger gtr 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "finger gtr 1.wav"; path = "../../../../Desktop/daw audio/finger gtr 1.wav"; sourceTree = "<group>"; };
+		91EC3CF62A04D02700A72441 /* finger gtr 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "finger gtr 0.wav"; path = "../../../../Desktop/daw audio/finger gtr 0.wav"; sourceTree = "<group>"; };
+		91EC3CF92A04D33100A72441 /* mute pluck 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 4.wav"; sourceTree = "<group>"; };
+		91EC3CFB2A04D33200A72441 /* mute pluck 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 7.wav"; sourceTree = "<group>"; };
+		91EC3CFC2A04D33200A72441 /* pre strum 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pre strum 0.wav"; sourceTree = "<group>"; };
+		91EC3CFD2A04D33200A72441 /* mute pluck 13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 13.wav"; sourceTree = "<group>"; };
+		91EC3CFE2A04D33200A72441 /* mute pluck 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 1.wav"; sourceTree = "<group>"; };
+		91EC3CFF2A04D33200A72441 /* mute pluck 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 5.wav"; sourceTree = "<group>"; };
+		91EC3D002A04D33200A72441 /* mute pluck 10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 10.wav"; sourceTree = "<group>"; };
+		91EC3D012A04D33200A72441 /* mute pluck 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 9.wav"; sourceTree = "<group>"; };
+		91EC3D022A04D33200A72441 /* mute pluck 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 3.wav"; sourceTree = "<group>"; };
+		91EC3D032A04D33200A72441 /* chopped chug 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chopped chug 0.wav"; sourceTree = "<group>"; };
+		91EC3D042A04D33200A72441 /* chorus gtr 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chorus gtr 0.wav"; sourceTree = "<group>"; };
+		91EC3D052A04D33200A72441 /* mute pluck 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 6.wav"; sourceTree = "<group>"; };
+		91EC3D062A04D33200A72441 /* mute pluck 12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 12.wav"; sourceTree = "<group>"; };
+		91EC3D072A04D33200A72441 /* mute pluck 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 8.wav"; sourceTree = "<group>"; };
+		91EC3D082A04D33200A72441 /* mute pluck 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 2.wav"; sourceTree = "<group>"; };
+		91EC3D092A04D33200A72441 /* verse line 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "verse line 0.wav"; sourceTree = "<group>"; };
+		91EC3D0A2A04D33200A72441 /* mute pluck 11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mute pluck 11.wav"; sourceTree = "<group>"; };
+		91EC3D1D2A04D5D400A72441 /* chopped bass 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chopped bass 0.wav"; sourceTree = "<group>"; };
+		91EC3D1E2A04D5D400A72441 /* phone 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "phone 0.wav"; sourceTree = "<group>"; };
+		91EC3D1F2A04D5D400A72441 /* synth bass 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "synth bass 0.wav"; sourceTree = "<group>"; };
+		91EC3D202A04D5D400A72441 /* bass gtr 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bass gtr 0.wav"; sourceTree = "<group>"; };
+		91EC3D212A04D5D400A72441 /* instr verb 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "instr verb 0.wav"; sourceTree = "<group>"; };
+		91EC3D222A04D5D400A72441 /* heart monitor 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "heart monitor 0.wav"; sourceTree = "<group>"; };
+		91EC3D232A04D5D400A72441 /* noise 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "noise 0.wav"; sourceTree = "<group>"; };
+		91EC3D2B2A04D66800A72441 /* vox verb 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vox verb 0.wav"; sourceTree = "<group>"; };
+		91EC3D2D2A04D73D00A72441 /* mute pluck 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "mute pluck 0.wav"; path = "../../../../Desktop/daw audio/mute pluck 0.wav"; sourceTree = "<group>"; };
+		91EC3D2F2A04D8B100A72441 /* hats 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hats 0.wav"; sourceTree = "<group>"; };
+		91EC3D302A04D8B100A72441 /* hats 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hats 1.wav"; sourceTree = "<group>"; };
+		91EC3D312A04D8B100A72441 /* percs 1 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "percs 1 0.wav"; sourceTree = "<group>"; };
+		91EC3D322A04D8B100A72441 /* kick 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kick 0.wav"; sourceTree = "<group>"; };
+		91EC3D332A04D8B100A72441 /* percs 2 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "percs 2 0.wav"; sourceTree = "<group>"; };
+		91EC3D342A04D8B100A72441 /* percs 3 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "percs 3 0.wav"; sourceTree = "<group>"; };
+		91EC3D352A04D8B100A72441 /* snare 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "snare 0.wav"; sourceTree = "<group>"; };
+		91EC3D362A04D8B100A72441 /* snare 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "snare 1.wav"; sourceTree = "<group>"; };
+		91EC3D372A04D8B100A72441 /* kick 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kick 1.wav"; sourceTree = "<group>"; };
 		91FCEEF6297B53B70005EEED /* AudioEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AudioEngine.cpp; sourceTree = "<group>"; };
 		91FCEEF7297B53B70005EEED /* AudioEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AudioEngine.hpp; sourceTree = "<group>"; };
 		91FCEEF9297B583D0005EEED /* PatchBayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchBayView.swift; sourceTree = "<group>"; };
@@ -171,8 +301,73 @@
 		9146D4682A01B26F00C85937 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				91EC3C912A04BD6100A72441 /* finger gtr 0.wav */,
-				91EC3C922A04BD6100A72441 /* finger gtr 1.wav */,
+				91EC3D2F2A04D8B100A72441 /* hats 0.wav */,
+				91EC3D302A04D8B100A72441 /* hats 1.wav */,
+				91EC3D322A04D8B100A72441 /* kick 0.wav */,
+				91EC3D372A04D8B100A72441 /* kick 1.wav */,
+				91EC3D312A04D8B100A72441 /* percs 1 0.wav */,
+				91EC3D332A04D8B100A72441 /* percs 2 0.wav */,
+				91EC3D342A04D8B100A72441 /* percs 3 0.wav */,
+				91EC3D352A04D8B100A72441 /* snare 0.wav */,
+				91EC3D362A04D8B100A72441 /* snare 1.wav */,
+				91EC3D2D2A04D73D00A72441 /* mute pluck 0.wav */,
+				91EC3D2B2A04D66800A72441 /* vox verb 0.wav */,
+				91EC3D202A04D5D400A72441 /* bass gtr 0.wav */,
+				91EC3D1D2A04D5D400A72441 /* chopped bass 0.wav */,
+				91EC3D222A04D5D400A72441 /* heart monitor 0.wav */,
+				91EC3D212A04D5D400A72441 /* instr verb 0.wav */,
+				91EC3D232A04D5D400A72441 /* noise 0.wav */,
+				91EC3D1E2A04D5D400A72441 /* phone 0.wav */,
+				91EC3D1F2A04D5D400A72441 /* synth bass 0.wav */,
+				91EC3D032A04D33200A72441 /* chopped chug 0.wav */,
+				91EC3D042A04D33200A72441 /* chorus gtr 0.wav */,
+				91EC3CFE2A04D33200A72441 /* mute pluck 1.wav */,
+				91EC3D082A04D33200A72441 /* mute pluck 2.wav */,
+				91EC3D022A04D33200A72441 /* mute pluck 3.wav */,
+				91EC3CF92A04D33100A72441 /* mute pluck 4.wav */,
+				91EC3CFF2A04D33200A72441 /* mute pluck 5.wav */,
+				91EC3D052A04D33200A72441 /* mute pluck 6.wav */,
+				91EC3CFB2A04D33200A72441 /* mute pluck 7.wav */,
+				91EC3D072A04D33200A72441 /* mute pluck 8.wav */,
+				91EC3D012A04D33200A72441 /* mute pluck 9.wav */,
+				91EC3D002A04D33200A72441 /* mute pluck 10.wav */,
+				91EC3D0A2A04D33200A72441 /* mute pluck 11.wav */,
+				91EC3D062A04D33200A72441 /* mute pluck 12.wav */,
+				91EC3CFD2A04D33200A72441 /* mute pluck 13.wav */,
+				91EC3CFC2A04D33200A72441 /* pre strum 0.wav */,
+				91EC3D092A04D33200A72441 /* verse line 0.wav */,
+				91EC3CF62A04D02700A72441 /* finger gtr 0.wav */,
+				91EC3CF52A04D02700A72441 /* finger gtr 1.wav */,
+				91EC3CE12A04CE7800A72441 /* pad 0.wav */,
+				91EC3CDD2A04CE7800A72441 /* synth keys 0.wav */,
+				91EC3CD52A04CE7800A72441 /* synth lead 0.wav */,
+				91EC3CDE2A04CE7800A72441 /* synth pluck 0.wav */,
+				91EC3CE32A04CE7800A72441 /* synth pluck 1.wav */,
+				91EC3CDA2A04CE7800A72441 /* synth pluck 2.wav */,
+				91EC3CD62A04CE7800A72441 /* whistle 0.wav */,
+				91EC3CDB2A04CE7800A72441 /* whistle 1.wav */,
+				91EC3CE42A04CE7800A72441 /* whistle 2.wav */,
+				91EC3CDC2A04CE7800A72441 /* whistle 3.wav */,
+				91EC3CD82A04CE7800A72441 /* whistle 4.wav */,
+				91EC3CD72A04CE7800A72441 /* whistle 5.wav */,
+				91EC3CD92A04CE7800A72441 /* whistle 6.wav */,
+				91EC3CE02A04CE7800A72441 /* whistle 7.wav */,
+				91EC3CE22A04CE7800A72441 /* whistle 8.wav */,
+				91EC3CDF2A04CE7800A72441 /* whistle 9.wav */,
+				91EC3CD32A04CB3800A72441 /* verse ld 0.wav */,
+				91EC3CB32A04CA8A00A72441 /* drop adlibs 0.wav */,
+				91EC3CB62A04CA8A00A72441 /* drop vox 0.wav */,
+				91EC3CB92A04CA8A00A72441 /* intro vox 0.wav */,
+				91EC3CBD2A04CA8A00A72441 /* pre vox 0.wav */,
+				91EC3CB42A04CA8A00A72441 /* pre vox 1.wav */,
+				91EC3CBA2A04CA8A00A72441 /* pre vox 2.wav */,
+				91EC3CB52A04CA8A00A72441 /* pre vox 3.wav */,
+				91EC3CBF2A04CA8A00A72441 /* pre vox 4.wav */,
+				91EC3CBC2A04CA8A00A72441 /* verse adlibs 0.wav */,
+				91EC3CB72A04CA8A00A72441 /* verse adlibs 1.wav */,
+				91EC3CB82A04CA8A00A72441 /* verse adlibs 2.wav */,
+				91EC3CC02A04CA8A00A72441 /* verse bkgs 0.wav */,
+				91EC3CBB2A04CA8A00A72441 /* verse bkgs 1.wav */,
 				91EC3C8B2A04BC5700A72441 /* master.wav */,
 			);
 			path = Audio;
@@ -447,13 +642,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91EC3CF82A04D02700A72441 /* finger gtr 0.wav in Resources */,
 				91EC3C8C2A04BC5700A72441 /* master.wav in Resources */,
+				91EC3CC12A04CA8A00A72441 /* drop adlibs 0.wav in Resources */,
+				91EC3CEF2A04CE7800A72441 /* whistle 9.wav in Resources */,
+				91EC3D3C2A04D8B100A72441 /* percs 2 0.wav in Resources */,
+				91EC3CE62A04CE7800A72441 /* whistle 0.wav in Resources */,
+				91EC3CC22A04CA8A00A72441 /* pre vox 1.wav in Resources */,
+				91EC3D382A04D8B100A72441 /* hats 0.wav in Resources */,
+				91EC3CE82A04CE7800A72441 /* whistle 4.wav in Resources */,
+				91EC3CD42A04CB3800A72441 /* verse ld 0.wav in Resources */,
 				9181C0AD295E15CC006FD9BD /* Preview Assets.xcassets in Resources */,
-				91EC3C942A04BD6100A72441 /* finger gtr 1.wav in Resources */,
-				91EC3C932A04BD6100A72441 /* finger gtr 0.wav in Resources */,
+				91EC3CCA2A04CA8A00A72441 /* verse adlibs 0.wav in Resources */,
+				91EC3D272A04D5D400A72441 /* bass gtr 0.wav in Resources */,
+				91EC3D242A04D5D400A72441 /* chopped bass 0.wav in Resources */,
+				91EC3CC32A04CA8A00A72441 /* pre vox 3.wav in Resources */,
+				91EC3D2E2A04D73D00A72441 /* mute pluck 0.wav in Resources */,
+				91EC3CE92A04CE7800A72441 /* whistle 6.wav in Resources */,
+				91EC3CF22A04CE7800A72441 /* whistle 8.wav in Resources */,
+				91EC3CC42A04CA8A00A72441 /* drop vox 0.wav in Resources */,
 				9181C0AA295E15CC006FD9BD /* Assets.xcassets in Resources */,
+				91EC3CC92A04CA8A00A72441 /* verse bkgs 1.wav in Resources */,
+				91EC3CC62A04CA8A00A72441 /* verse adlibs 2.wav in Resources */,
+				91EC3D3E2A04D8B100A72441 /* snare 0.wav in Resources */,
+				91EC3D2A2A04D5D400A72441 /* noise 0.wav in Resources */,
+				91EC3D282A04D5D400A72441 /* instr verb 0.wav in Resources */,
+				91EC3CC72A04CA8A00A72441 /* intro vox 0.wav in Resources */,
+				91EC3D192A04D33200A72441 /* mute pluck 8.wav in Resources */,
+				91EC3CF72A04D02700A72441 /* finger gtr 1.wav in Resources */,
+				91EC3D2C2A04D66800A72441 /* vox verb 0.wav in Resources */,
+				91EC3CED2A04CE7800A72441 /* synth keys 0.wav in Resources */,
+				91EC3D0B2A04D33200A72441 /* mute pluck 4.wav in Resources */,
+				91EC3D1A2A04D33200A72441 /* mute pluck 2.wav in Resources */,
+				91EC3D0D2A04D33200A72441 /* mute pluck 7.wav in Resources */,
+				91EC3D102A04D33200A72441 /* mute pluck 1.wav in Resources */,
+				91EC3D162A04D33200A72441 /* chorus gtr 0.wav in Resources */,
+				91EC3D132A04D33200A72441 /* mute pluck 9.wav in Resources */,
+				91EC3D3B2A04D8B100A72441 /* kick 0.wav in Resources */,
+				91EC3D152A04D33200A72441 /* chopped chug 0.wav in Resources */,
+				91EC3D252A04D5D400A72441 /* phone 0.wav in Resources */,
+				91EC3D172A04D33200A72441 /* mute pluck 6.wav in Resources */,
+				91EC3CC82A04CA8A00A72441 /* pre vox 2.wav in Resources */,
+				91EC3CCE2A04CA8A00A72441 /* verse bkgs 0.wav in Resources */,
+				91EC3CEB2A04CE7800A72441 /* whistle 1.wav in Resources */,
+				91EC3CEE2A04CE7800A72441 /* synth pluck 0.wav in Resources */,
+				91EC3D292A04D5D400A72441 /* heart monitor 0.wav in Resources */,
+				91EC3CEC2A04CE7800A72441 /* whistle 3.wav in Resources */,
+				91EC3CEA2A04CE7800A72441 /* synth pluck 2.wav in Resources */,
+				91EC3D3D2A04D8B100A72441 /* percs 3 0.wav in Resources */,
+				91EC3CE52A04CE7800A72441 /* synth lead 0.wav in Resources */,
+				91EC3D1C2A04D33200A72441 /* mute pluck 11.wav in Resources */,
 				9146D4AC2A02256000C85937 /* metr.wav in Resources */,
 				9146D4F42A02DAB200C85937 /* .gitignore in Resources */,
+				91EC3CCD2A04CA8A00A72441 /* pre vox 4.wav in Resources */,
+				91EC3D0F2A04D33200A72441 /* mute pluck 13.wav in Resources */,
+				91EC3D1B2A04D33200A72441 /* verse line 0.wav in Resources */,
+				91EC3D112A04D33200A72441 /* mute pluck 5.wav in Resources */,
+				91EC3D392A04D8B100A72441 /* hats 1.wav in Resources */,
+				91EC3CF42A04CE7800A72441 /* whistle 2.wav in Resources */,
+				91EC3CC52A04CA8A00A72441 /* verse adlibs 1.wav in Resources */,
+				91EC3D3A2A04D8B100A72441 /* percs 1 0.wav in Resources */,
+				91EC3D182A04D33200A72441 /* mute pluck 12.wav in Resources */,
+				91EC3D3F2A04D8B100A72441 /* snare 1.wav in Resources */,
+				91EC3CF32A04CE7800A72441 /* synth pluck 1.wav in Resources */,
+				91EC3D122A04D33200A72441 /* mute pluck 10.wav in Resources */,
+				91EC3D142A04D33200A72441 /* mute pluck 3.wav in Resources */,
+				91EC3D402A04D8B100A72441 /* kick 1.wav in Resources */,
+				91EC3CF12A04CE7800A72441 /* pad 0.wav in Resources */,
+				91EC3CE72A04CE7800A72441 /* whistle 5.wav in Resources */,
+				91EC3D0E2A04D33200A72441 /* pre strum 0.wav in Resources */,
+				91EC3D262A04D5D400A72441 /* synth bass 0.wav in Resources */,
+				91EC3CF02A04CE7800A72441 /* whistle 7.wav in Resources */,
+				91EC3CCB2A04CA8A00A72441 /* pre vox 0.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
