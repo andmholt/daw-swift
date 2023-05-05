@@ -36,7 +36,7 @@ class ContentViewModel: ObservableObject {
     
     @Published var isPlaying = false
     
-    @Published var playheadPos = 0
+    @Published var playheadPos: Int = 0
     
     var playPos: Int = 0
     
@@ -94,9 +94,9 @@ class ContentViewModel: ObservableObject {
             
             var beginningOffset = 0
             self.playheadPos = playPos*11
-            self.timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
+            self.timer = Timer.scheduledTimer(withTimeInterval: Double(60)/Double(605), repeats: true) { timer in
                 beginningOffset += 1
-                if beginningOffset < 4 {
+                if beginningOffset < 6 {
                     return
                 }
                 // This code will be executed every 0.25 seconds

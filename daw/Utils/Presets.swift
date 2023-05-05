@@ -7,17 +7,17 @@ struct PresetTrack {
     let title: String
     let color: Color
     let clipFiles: [String]
-    let clipLocations: [Int]
+    let clipLocations: [CGFloat]
 }
 
 struct MetronomeTest {
     let tracks = [
         PresetTrack(title: "metr", color: voxColor, clipFiles: [
             "metr",
-            "metr"
+            "metr",
         ], clipLocations: [
-            0,
-            20
+            1.5,
+            5,
         ]),
     ]
 }

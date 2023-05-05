@@ -34,7 +34,7 @@ struct TracksView: View {
                     ZStack() {
                         // numbers
                         HStack(spacing: 0) {
-                            ForEach (1...250, id: \.self) { i in
+                            ForEach (0...249, id: \.self) { i in
                                 Text(String(i))
                                     .foregroundColor(.gray)
                                     .frame(width: CGFloat(vm.gridScale*4), alignment: .leading)
@@ -157,8 +157,9 @@ struct TracksView: View {
                                             vm.onDragGesture(start: gesture.startLocation, curr: gesture.location)
                                         }
                                         .onEnded { _ in
+                                            vm.onDragGestureEnded()
                                             vm.clipDragStartLoc = nil
-                                            vm.saveClipBufLoc()
+//                                            vm.saveClipBufLoc()
                                         }
                                 )
                                 .onTapGesture { gesture in

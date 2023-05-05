@@ -19,7 +19,7 @@ extension TracksView {
         @Published var bottomRightHighlight: CGPoint?
         
         // grid
-        @Published var gridScale: CGFloat = 11.010
+        @Published var gridScale: CGFloat = 11
         
         // cursor
         @Published var cursorLineTop: CGPoint?
@@ -98,8 +98,8 @@ extension TracksView {
             }
             
             // set preset
-//            let preset = TalkLikeTest()
-            let preset = MetronomeTest()
+            let preset = TalkLikeTest()
+//            let preset = MetronomeTest()
             
             for track in preset.tracks {
                 self.tracks.append(AudioTrackViewModel(setHoveringTrack: setHoveringTrack, setHoveringClip: setHoveringClip, deleteTrack: deleteTrack, getMergeBufId: getMergeBufId, mergeBuf: mergeBuf, audioFiles: track.clipFiles, clipLocations: track.clipLocations, tabColor: track.color, title: track.title))
@@ -253,6 +253,10 @@ extension TracksView {
             }
         }
         
+        func onDragGestureEnded() {
+            saveClipBufLoc()
+        }
+        
         func onTapGesture(_ gesture: CGPoint) {
             
             // reset highlight vars
@@ -299,14 +303,14 @@ extension TracksView {
             
             // drag clip
             if let clipDragStartLoc = clipDragStartLoc {
-                let freeLoc = clipDragStartLoc + (curr.x-start.x)
+                let freeLoc = (clipDragStartLoc * 4 * 11) + (curr.x-start.x)
                 let roundedLoc = CGFloat(11 * Int(round(freeLoc / 11)))
-                hoveringClippableTrack.pointee.clipLocations[hoveringClip.pointee.clip.id] = roundedLoc
+                hoveringClippableTrack.pointee.clipLocations[hoveringClip.pointee.clip.id] = roundedLoc/11/4
             } else {
-                clipDragStartLoc = hoveringClippableTrack.pointee.clipLocations[hoveringClip.pointee.clip.id]
-                let freeLoc = hoveringClippableTrack.pointee.clipLocations[hoveringClip.pointee.clip.id] ?? 0 + (curr.x-start.x)
+                clipDragStartLoc = hoveringClippableTrack.pointee.clipLocations[hoveringClip.pointee.clip.id]!
+                let freeLoc = (hoveringClippableTrack.pointee.clipLocations[hoveringClip.pointee.clip.id]! * 4 * 11) + (curr.x-start.x)
                 let roundedLoc = CGFloat(11 * Int(round(freeLoc / 11)))
-                hoveringClippableTrack.pointee.clipLocations[hoveringClip.pointee.clip.id] = roundedLoc
+                hoveringClippableTrack.pointee.clipLocations[hoveringClip.pointee.clip.id] = roundedLoc/11/4
             }
             
             // dealloc

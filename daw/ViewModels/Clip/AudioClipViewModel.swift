@@ -15,15 +15,15 @@ import AVFoundation
     @Published var floatBuf: [Float]?
     var audioBuffer: AVAudioPCMBuffer?
     
-    var attachBuf: (AVAudioPCMBuffer, Int, UInt32) -> Void
+    var attachBuf: (UUID, AVAudioPCMBuffer, CGFloat, UInt32) -> Void
     
     @Published var color: Color
     @Published var title: String
     
     init(setHoveringClip: @escaping (ClipViewModel, Bool) -> Void,
-         attachBuf: @escaping (AVAudioPCMBuffer, Int, UInt32) -> Void,
+         attachBuf: @escaping (UUID, AVAudioPCMBuffer, CGFloat, UInt32) -> Void,
          audioFile: String,
-         location: Int,
+         location: CGFloat,
          color: Color,
          title: String) {
         
@@ -58,7 +58,7 @@ import AVFoundation
             }
             
             // attach to track buffer
-            attachBuf(audioBuffer!, location, audioFrameCount)
+            attachBuf(self.clip.id, audioBuffer!, location, audioFrameCount)
         } catch let error {
             print("Error loading audio: \(error.localizedDescription)")
         }

@@ -17,14 +17,14 @@ struct AudioTrackView: View {
     
     var body: some View {
         GeometryReader { metrics in
-            HStack {
+            ZStack {
                 /*ForEach (Array(zip(vm.clips.indices, vm.clips)), id: \.1.clip.id) { i, clipVM in
                     AudioClipView(vm: clipVM as! AudioClipViewModel)
                         .offset(x: vm.clipLocations[clipVM.clip.id] ?? 0)
                 }*/
                 ForEach (vm.clips, id: \.self.clip.id) { clipVM in
                     AudioClipView(vm: clipVM as! AudioClipViewModel)
-                        .offset(x: vm.clipLocations[clipVM.clip.id] ?? 0)
+                        .offset(x: (vm.clipLocations[clipVM.clip.id] ?? 0) * 4 * 11)
                 }
             }
                 .frame(width: metrics.size.width, height: metrics.size.height)
