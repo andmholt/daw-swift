@@ -24,6 +24,7 @@ struct AudioTrackView: View {
                 }*/
                 ForEach (vm.clips, id: \.self.clip.id) { clipVM in
                     AudioClipView(vm: clipVM as! AudioClipViewModel)
+//                        .frame(width: (( Double((clipVM as! AudioClipViewModel).length)/samplesPerBeat) * 11))
                         .offset(x: (vm.clipLocations[clipVM.clip.id] ?? 0) * 4 * 11)
                 }
             }

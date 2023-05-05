@@ -26,22 +26,14 @@ struct TalkLikeTest {
     let tracks = [
         
         // vox
-        PresetTrack(title: "Intro Vox", color: voxColor, clipFiles: [
-            "_ intro vox",
-        ], clipLocations: [
-            0,
-        ]),
-        PresetTrack(title: "Verse Vox", color: voxColor, clipFiles: [
-            "_ verse vox",
-        ], clipLocations: [
-            0,
-        ]),
         
         // gtr
         PresetTrack(title: "Finger Guitar", color: gtrColor, clipFiles: [
-            "_ finger gtr",
+            "finger gtr 0",
+            "finger gtr 1"
         ], clipLocations: [
             0,
+            37.5
         ])
         
     ]

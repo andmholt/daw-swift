@@ -18,8 +18,8 @@ class ContentViewModel: ObservableObject {
     
     let audioFormat = AVAudioFormat(commonFormat: .pcmFormatFloat32, sampleRate: 48000, channels: 2, interleaved: false)
     
-    let audioFileURL = Bundle.main.url(forResource: "_ intro vox", withExtension: "wav")!
-    let audioFileURL2 = Bundle.main.url(forResource: "_ intro vox", withExtension: "wav")!
+    let audioFileURL = Bundle.main.url(forResource: "master", withExtension: "wav")!
+    let audioFileURL2 = Bundle.main.url(forResource: "master", withExtension: "wav")!
     
     var audioBuffer: AVAudioPCMBuffer
     var audioBuffer2: AVAudioPCMBuffer
@@ -177,7 +177,7 @@ class ContentViewModel: ObservableObject {
 //        let currBuffCount: Float = Float(currMergeBufId)
         
         // read a file into the buffer to set up the buffer properly
-        let tempUrl = Bundle.main.url(forResource: "_ intro vox", withExtension: "wav")!
+        let tempUrl = Bundle.main.url(forResource: "master", withExtension: "wav")!
         let tempBuffer = AVAudioPCMBuffer(pcmFormat: audioFormat!, frameCapacity: UInt32(AUDIO_FRAME_COUNT))!
         let tempFile = try! AVAudioFile(forReading: tempUrl)
         try! tempFile.read(into: tempBuffer)

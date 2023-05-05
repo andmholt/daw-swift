@@ -8,6 +8,11 @@
 import SwiftUI
 import AVFoundation
 
+let samplesPerSecond = 48000
+let beatsPerMinute = 110
+let beatsPerSecond: Double = Double(beatsPerMinute)/60
+let samplesPerBeat = Double(samplesPerSecond)/beatsPerSecond
+
 struct AudioClipView: View {
     
     @StateObject var vm: AudioClipViewModel
@@ -42,7 +47,7 @@ struct AudioClipView: View {
                 HStack {
                     Text(vm.title)
                 }
-                .frame(width: CGFloat(vm.floatBuf!.count)-Theme.clipPaddingL, height: Theme.clipTitleHAdj*metrics.size.height, alignment: .leading)
+                .frame(width: (CGFloat(Double(vm.length)/samplesPerBeat) * 11)-Theme.clipPaddingL, height: Theme.clipTitleHAdj*metrics.size.height, alignment: .leading)
                 .padding(.leading, Theme.clipPaddingL)
                 .padding(.top, Theme.clipPaddingTB)
                 .padding(.bottom, Theme.clipPaddingTB)
@@ -62,7 +67,8 @@ struct AudioClipView: View {
                             x += 1
                         }
                     }
-                    .frame(width: CGFloat(vm.floatBuf!.count))
+//                    .frame(width: CGFloat(Double(vm.floatBuf!.count)/))
+                    .frame(width: CGFloat(Double(vm.length)/samplesPerBeat) * 11)
                     .background(vm.color).opacity(0.8)
                 }
             }

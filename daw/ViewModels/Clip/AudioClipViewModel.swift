@@ -16,6 +16,7 @@ import AVFoundation
     var audioBuffer: AVAudioPCMBuffer?
     
     var attachBuf: (UUID, AVAudioPCMBuffer, CGFloat, UInt32) -> Void
+    var length: UInt32 = 0
     
     @Published var color: Color
     @Published var title: String
@@ -45,6 +46,7 @@ import AVFoundation
             // current default size to 10 million
 //            let audioFrameCount = UInt32(10000000)
             let audioFrameCount = UInt32(audioFile.length)
+            self.length = audioFrameCount
             audioBuffer = AVAudioPCMBuffer(pcmFormat: audioFormat, frameCapacity: audioFrameCount)
             try audioFile.read(into: audioBuffer!)
             
