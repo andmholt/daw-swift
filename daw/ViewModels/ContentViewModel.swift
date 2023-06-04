@@ -82,15 +82,6 @@ class ContentViewModel: ObservableObject {
 //        isPlaying = true
         
         do {
-//            let audioFile = try AVAudioFile(forReading: audioFileURL)
-//            let audioFormat = AVAudioFormat(commonFormat: .pcmFormatFloat32, sampleRate: 48000, channels: 2, interleaved: false)
-//            let audioFrameCount = UInt32(audioFile.length)
-//            guard let audioBuffer = AVAudioPCMBuffer(pcmFormat: audioFormat!, frameCapacity: audioFrameCount) else { return }
-//            try audioFile.read(into: audioBuffer)
-
-//            for i in stride(from: 0, to: Int(audioFrameCount), by: 1) {
-//                print("NEW L: \(audioBuffer.floatChannelData![0][i]), R: \(audioBuffer.floatChannelData![1][i])")
-//            }
             
             var beginningOffset = 0
             self.playheadPos = playPos*11
